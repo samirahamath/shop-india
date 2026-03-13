@@ -3,7 +3,7 @@ import { useAuth } from '../context/AuthContext';
 import { useNavigate } from 'react-router-dom';
 import api from '../api';
 import toast from 'react-hot-toast';
-import { FiEdit, FiTrash2, FiPlus, FiStar, FiUsers, FiShoppingBag, FiPackage, FiDollarSign, FiSearch, FiShield, FiUser, FiCheck, FiX, FiRefreshCw, FiSettings, FiEye, FiEyeOff, FiSave, FiLink, FiTruck, FiMail, FiPhone, FiMapPin } from 'react-icons/fi';
+import { FiEdit, FiTrash2, FiPlus, FiStar, FiUsers, FiShoppingBag, FiPackage, FiDollarSign, FiSearch, FiShield, FiUser, FiCheck, FiX, FiRefreshCw, FiSettings, FiEye, FiEyeOff, FiSave, FiLink, FiTruck, FiMail, FiMapPin } from 'react-icons/fi';
 
 const TABS = [
     { id: 'dashboard', label: '📊 Dashboard' },
